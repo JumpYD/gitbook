@@ -1,18 +1,11 @@
-yuxia 信息系统管理
-王,江,粟,苏,叶
-谢,卢,王,袁 ,沈,余
-何康
-杨。。
+
 	fengche.co
 	(xujiawenxjw@gmail.com)
-	192.168.0.183
-ssh -l Gavin 192.168.0.183
+	
+ssh -l Gavin ip
 
-wifi密码  welcome1
 
-vpn     教程：https://www.ytvpn.com/guides
-	106.185.26.39
-	xjw  welcome1
+vpn  教程：https://www.ytvpn.com/guides
 
 
 查看系统命令
@@ -21,12 +14,9 @@ vpn     教程：https://www.ytvpn.com/guides
 删除文件夹 rm -rf 文件夹
 
 本地放远程（本地执行）
-	scp -r /home/gavin/node.js Gavin@192.168.0.183:/home/voyager/Gavin
+	scp -r /home/gavin/node.js Gavin@ip:/home/voyager/Gavin
 远程放到本地（本地执行）
-	scp -r Gavin@192.168.0.183:/home/voyager/* /home/gavin/parser/ 
-
-	/home/voyagerland/Gavin/
-	/home/voyagerland/Gavin/parser
+	scp -r Gavin@ip:/home/voyager/* /home/gavin/parser/ 
 
 改变文件编码方式:
 	iconv -f gbk -t utf8  atm.log > atm1.log
@@ -61,7 +51,7 @@ vim  关闭保存（ZZ）
 ifconfig  查看ip
 
 
-scp -r ./J48Test.class voyager@192.168.0.166:/opt/vrss/lib/framework/integration/java/j48test/test/
+scp -r ./J48Test.class voyager@ip:/opt/vrss/lib/framework/integration/java/j48test/test/
 
 
 
